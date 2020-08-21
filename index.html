@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/journal/bootstrap.min.css"
+        integrity="sha384-QDSPDoVOoSWz2ypaRUidLmLYl4RyoBWI44iA5agn6jHegBxZkNqgm2eHb6yZ5bYs" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -14,33 +16,35 @@
     <div class="container">
         <div id="bank" class="theBank">
             <h3>Marina Bank</h3>
+            <br>
             <h5 id="bankBalance">Balance</h5>
-            <div></div>
-            <button id="getLoan" class="loanBtn">Get a loan</button>
+            <br>
+            <button id="getLoan" class="loanBtn btn btn-primary">Get a loan</button>
         </div>
         <br>
         <div id="work" class="theWork">
             <h3>Work</h3>
+            <br>
             <h5 id="payBalance">Pay</h5>
-            <div></div>
-            <button id="toBank" class="transferBtn">Transfer Money</button>
-            <button id="toWork" class="workBtn">Work</button>
+            <br>
+            <button id="toBank" class="transferBtn btn btn-primary">Transfer Money</button>
+            <button id="toWork" class="workBtn btn btn-secondary">Work</button>
         </div>
         <br>
         <div id="laptop" class="theLaptop">
             <h3>Laptops</h3>
-            <div class="custom-select" style="width:200px;">
-                <select id="selectLaptop">
-                    <option>Select laptop:</option>
+            <div  style="width:200px;">
+                <select id="selectLaptop" class="custom-select">
+                    <option selected="">Select laptop:</option>
                 </select>
             </div>
-            <div id="features"></div>
+
         </div>
     </div>
     <br>
     <br>
     <div id="selected" class="buyLaptop">
-        <img src="" id="image">
+        <img src="" id="image" class="imageStyle">
         <h2 id="laptopName"></h2>
         <h3 id="price"></h3>
         <p id="feature1"></p>

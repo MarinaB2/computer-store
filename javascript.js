@@ -7,7 +7,7 @@ let laptops = [
         id: 1,
         name: 'MP idea-2000',
         price: 17000,
-        image: '',
+        image: 'images/laptop1.jpg',
         feature1: 'Has a good memory over 500-GB',
         feature2: 'Easy to use',
         feature3: 'Has a beautiful color',
@@ -18,7 +18,7 @@ let laptops = [
         id: 2,
         name: 'MP just Gaming',
         price: 5000,
-        image: '',
+        image: 'images/laptop2.jpg',
         feature1: 'Has a super memory over 1-TB',
         feature2: 'A gaming laptop ',
         feature3: 'Is very cheap, so think about it !',
@@ -29,7 +29,7 @@ let laptops = [
         id: 3,
         name: 'NP laptop',
         price: 2000,
-        image: '',
+        image: 'images/laptop3.jpg',
         feature1: 'Memory is 60-GB',
         feature2: 'Easy to use with a good price',
         feature3: 'Has a camera ',
@@ -40,7 +40,7 @@ let laptops = [
         id: 4,
         name: 'LN bnl 2008',
         price: 5000,
-        image: '',
+        image: 'images/laptop4.png',
         feature1: 'Has a good memory over 200-GB',
         feature2: 'Easy to use',
         feature3: 'Has a beautiful color and a camera',
@@ -51,7 +51,7 @@ let laptops = [
         id: 5,
         name: 'No laptop 600',
         price: 1000,
-        image: '',
+        image: 'images/laptop5.jpg',
         feature1: 'This is not a laptop ',
         feature2: 'Easy to use',
         feature3: 'Is very small',
@@ -109,7 +109,7 @@ let displayBankBalance = (newAmount) => {
 
 let displayPayBalance = (newAmount) => {
     payBalance = newAmount;
-    document.getElementById('payBalance').innerHTML = 'Pay ' + newAmount + 'kr';
+    document.getElementById('payBalance').innerHTML = 'Pay  ' + newAmount + 'kr';
 }
 
 let getLoan = () => {

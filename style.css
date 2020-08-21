@@ -45,7 +45,14 @@
     width: 250px;
     height: 200px;
 }
+.imageStyle{
+    display: table-cell;
+    width:200px;
+    height: 200px;
+    border-image-width: 50px;
+}
 .buyLaptop{
+    display: table;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px;
@@ -56,6 +63,10 @@
     position: relative;
 }
 .buyNowBtn{
-
+    display: table-cell;
 }
+.features{
+    display: table-cell;
+}
+
 
