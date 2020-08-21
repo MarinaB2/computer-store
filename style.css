@@ -46,10 +46,12 @@
     height: 200px;
 }
 .imageStyle{
-    display: table-cell;
+  padding-right: 30px;
     width:200px;
     height: 200px;
     border-image-width: 50px;
+    position: relative;
+    float: left;
 }
 .buyLaptop{
     display: table;
@@ -63,10 +65,8 @@
     position: relative;
 }
 .buyNowBtn{
-    display: table-cell;
+   float: right;
 }
-.features{
-    display: table-cell;
-}
+
 
 

@@ -104,12 +104,12 @@ $(document).ready(function () {
 
 let displayBankBalance = (newAmount) => {
     bankBalance = newAmount;
-    document.getElementById('bankBalance').innerHTML = 'Balance ' + newAmount + 'kr';
+    document.getElementById('bankBalance').innerHTML = 'Balance ... ... ...  ' + newAmount + '-kr';
 }
 
 let displayPayBalance = (newAmount) => {
     payBalance = newAmount;
-    document.getElementById('payBalance').innerHTML = 'Pay  ' + newAmount + 'kr';
+    document.getElementById('payBalance').innerHTML = 'Pay ... ... ...  ' + newAmount + '-kr';
 }
 
 let getLoan = () => {
@@ -160,7 +160,7 @@ let buyLaptop = () => {
             //Checking if the user has enough money to buy the laptop
             if (laptop.price <= bankBalance) {
 
-                alert('The laptop is yours !');
+                alert('The laptop ' + laptop.name + '  is yours !');
 
                 bankBalance -= laptop.price;
                 displayBankBalance(bankBalance);
