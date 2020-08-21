@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="theHeader">Computer store</div>
+    <br>
+    <div class="container">
+        <div id="bank" class="theBank">
+            <h3>The Bank</h3>
+            <h5 id="bankBalance">Balance</h5>
+            <div></div>
+            <button id="getLoan" class="loanBtn">Get a loan</button>
+        </div>
+        <br>
+        <div id="work" class="theWork">
+            <h3>Work</h3>
+            <h5 id="payBalance">Pay</h5>
+            <div></div>
+            <button id="toBank" class="transferBtn">Transfer Money</button>
+            <button id="toWork" class="workBtn">Work</button>
+        </div>
+        <br>
+        <div id="laptop" class="theLaptop">
+            <h3>Laptops</h3>
+            <div class="custom-select" style="width:200px;">
+                <select id="selectLaptop">
+                    <option>Select laptop:</option>
+                </select>
+            </div>
+            <div id="features"></div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div id="selected" class="buyLaptop">
+        <img src="" id="image">
+        <h2 id="laptopName"></h2>
+        <h3 id="price"></h3>
+        <p id="feature1"></p>
+        <p id="feature2"></p>
+        <p id="feature3"></p>
+        <p id="laptopInfo"></p>
+
+        <button id="buyNow" class="buyNowBtn">Buy now</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+</body>
+
+</html>

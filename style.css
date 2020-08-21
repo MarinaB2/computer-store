@@ -1,0 +1,61 @@
+.theHeader{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(156, 4, 80);
+    color: aliceblue;
+}
+.container{
+    display: table; /* Make the container element behave like a table */
+    width: 70%;
+    margin-left: 170px;
+}
+.theBank{
+    display: table-cell;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: rgb(231, 222, 222);
+    width: 250px;
+    height: 200px;
+}
+.loanBtn{
+
+}
+.theWork{
+    display: table-cell;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: rgb(231, 222, 222);
+    width: 250px;
+    height: 200px;
+}
+.transferBtn{
+
+}
+.workBtn{
+
+}
+.theLaptop{
+    display: table-cell;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color:  rgb(231, 222, 222);
+    width: 250px;
+    height: 200px;
+}
+.buyLaptop{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: rgb(231, 222, 222);
+    width: 800px;
+    height: 260px;
+    margin-left: 170px;
+    position: relative;
+}
+.buyNowBtn{
+
+}
+
