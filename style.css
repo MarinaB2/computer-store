@@ -3,9 +3,23 @@
     height: 50px;
     background-color: rgb(156, 4, 80);
     color: aliceblue;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+    animation-fill-mode: both;
 }
+
+@keyframes animation
+{
+    from {background-color: rgb(156, 4, 80);}
+    to {background-color: rgb(109, 95, 103);}
+  }
 .container{
-    display: table; /* Make the container element behave like a table */
+    display: table; 
     width: 70%;
     margin-left: 170px;
 }
